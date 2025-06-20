@@ -3,8 +3,7 @@ name: test actions
 on:
     push:
         branches: [main]
-    workflow_dispatch:
-
+        
 jobs:
    test-actions:
      runs-on: ubuntu-latest
